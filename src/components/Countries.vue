@@ -3,9 +3,9 @@
   <img @click="navigateToCountry" :src="src"  style="width:100%">
   <div class="container">
     <h4><b>{{ country }}</b></h4>
-    <p>Population: {{ population }}</p>
-    <p>Region: {{ region }}</p>
     <p>Capital: {{ capital }}</p>
+    <p>Population: {{ population }}</p>
+    <p>Continent: {{ region }}</p>
   </div>
 </div>
 </template>

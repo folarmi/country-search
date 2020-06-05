@@ -1,7 +1,7 @@
 <template>
   <div>
       <select  @click="getContinent" name="" id="continent" v-model="selectedContinent">
-        <option value="" disabled selected>Filter by Country </option>
+        <option value="" disabled selected>Filter by Continent </option>
         <option value="Africa"> Africa </option>
         <option value="America"> America </option>
         <option value="Asia"> Asia </option>
